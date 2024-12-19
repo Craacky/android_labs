@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "taxi_emulation"
+rootProject.name = "taxi"
 include ':app'

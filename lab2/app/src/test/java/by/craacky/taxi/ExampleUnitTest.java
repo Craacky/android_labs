@@ -1,4 +1,4 @@
-package by.craacky.taxi_emulation;
+package by.craacky.taxi;
 
 import org.junit.Test;
 

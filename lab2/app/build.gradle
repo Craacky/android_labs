@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'by.craacky.taxi_emulation'
+    namespace 'by.craacky.taxi'
     compileSdk 34
 
     defaultConfig {
-        applicationId "by.craacky.taxi_emulation"
+        applicationId "by.craacky.taxi"
         minSdk 24
         targetSdk 34
         versionCode 1

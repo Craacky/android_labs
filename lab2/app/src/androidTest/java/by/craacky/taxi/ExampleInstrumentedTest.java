@@ -1,4 +1,4 @@
-package by.craacky.taxi_emulation;
+package by.craacky.taxi;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("by.craacky.taxi_emulation", appContext.getPackageName());
+        assertEquals("by.craacky.taxi", appContext.getPackageName());
     }
 }

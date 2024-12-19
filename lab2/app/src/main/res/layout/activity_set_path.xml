@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/pointAStreet"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Point A - Street"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/pointANumber"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Point A - Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/pointBStreet"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Point B - Street"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/pointBNumber"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Point B - Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:textColor="@android:color/white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/setPathButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:text="Set Path"
+        android:textColor="@android:color/white" />
+</LinearLayout>

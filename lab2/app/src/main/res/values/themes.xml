@@ -1,9 +1,21 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Taxi_emulation" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+<resources>
+    <!-- Базовая тёмная тема -->
+    <style name="Theme.TaxiApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Цвета -->
+        <item name="colorPrimary">#121212</item> <!-- Темный фон -->
+        <item name="colorPrimaryVariant">#1F1F1F</item> <!-- Чуть светлее -->
+        <item name="colorSecondary">#212121</item> <!-- Для акцента -->
+        <item name="android:statusBarColor">#121212</item> <!-- Тёмный статус-бар -->
 
-    <style name="Theme.Taxi_emulation" parent="Base.Theme.Taxi_emulation" />
+        <!-- Белый текст -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#B3B3B3</item> <!-- Серый для подсказок -->
+        <item name="android:textColorSecondary">#B3B3B3</item> <!-- Серый для второстепенного текста -->
+
+        <!-- Шрифты -->
+        <item name="fontFamily">poppins_regular</item>
+
+        <!-- Фон приложения -->
+        <item name="android:windowBackground">#121212</item>
+    </style>
 </resources>
