@@ -1,11 +1,22 @@
-<!-- activity_cart.xml -->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Cart:"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
 
     <ListView
-        android:id="@+id/cart_list_view"
+        android:id="@+id/cartListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:dividerHeight="1dp" />
+
 </LinearLayout>

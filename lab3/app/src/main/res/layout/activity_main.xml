@@ -1,24 +1,45 @@
-<!-- activity_main.xml -->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
+    <!-- ListView with dynamic height -->
+    <TextView
+    android:id="@+id/headerTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Mini Shop"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:padding="16dp" />
+    <!-- ListView with dynamic height -->
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
-
-    <TextView
-        android:id="@+id/tv_count"
+        android:layout_weight="1"
+        android:dividerHeight="1dp" />
+    <!-- Footer -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Count of goods = 0" />
+        android:orientation="horizontal"
+        android:padding="8dp">
 
-    <Button
-        android:id="@+id/btn_show_cart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show Checked Items" />
+        <TextView
+            android:id="@+id/footerTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Selected = 0"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/showCheckedItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Selected" />
+    </LinearLayout>
 </LinearLayout>
